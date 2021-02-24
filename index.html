@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bs5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+
+    <title>Login Page 6 - Register </title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- Form Register -->
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-10 col-md-9">
+
+                <div class="card o-hidden border-0 shadow-lg my-5 bg-vector">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <!-- cover -->
+                            <div class="col-sm d-none d-lg-block">
+                                <div class="p-5 position-relative">
+                                    <div class="text-center mt-5">
+                                        <h1 class="h1 judul text-bold">ONLINE EDUCATION</h1>
+                                        <p class="desc">
+                                            Lorem ipsum dolor sit amet, consectetuer
+                                            adipiscing elit, sed
+                                            diam nonummy nibh euismod tincidunt ut
+                                        </p>
+                                    </div>
+                                    <center>
+                                        <img src="assets/vector-cover.png" width="100%">
+                                    </center>
+                                </div>
+
+                            </div>
+
+                            <!-- form control -->
+                            <div class="col-sm">
+                                <div class="tab-content">
+                                    <nav>
+                                        <div class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="card border-0 shadow card-login">
+                                            <div class="card-body p-0">
+                                                <form method="POST" name="myForm" action="#">
+        
+                                                    <div class="row justify-content-center mt-5">
+        
+                                                        <div class="text-center mt-5">
+                                                            <h1 class="h2 judul text-bold">CREATE ACCOUNT</h1>
+                                                        </div>
+        
+                                                        <div class="col-lg-10 col-md-10 mt-5">
+                                                            <div class="input-container mx-2">
+                                                                <i class="far fa-user icon"></i>
+                                                                <input class="input-field" type="text" placeholder="Username"
+                                                                    name="usrnm" required>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-lg-10 col-md-10">
+                                                            <div class="input-container mx-2">
+                                                                <i class="far fa-envelope icon"></i>
+                                                                <input class="input-field" type="eamil" placeholder="Email"
+                                                                    name="email" required>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-lg-10 col-md-10">
+                                                            <div class="input-container mx-2">
+                                                                <i class="far fa-flag icon"></i>
+                                                                <input class="input-field" type="text" placeholder="Country"
+                                                                    name="country" required>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-lg-10 col-md-10">
+                                                            <div class="input-container mx-2">
+                                                                <i class="fas fa-phone icon"></i>
+                                                                <input class="input-field" type="text" placeholder="Phone"
+                                                                    name="phone" required>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-lg-10 col-md-10">
+                                                            <div class="input-container mx-2">
+                                                                <i class="fas fa-lock icon"></i>
+                                                                <input class="input-field" type="password"
+                                                                    placeholder="Password" name="pwd" required>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-lg-10 col-md-10">
+                                                            <div class="d-flex mx-2">
+                                                                <div class="form-group my-4">
+                                                                    <label class="container font-check">Lorem ipsum dolor sit
+                                                                        amet, consectetuer
+                                                                        adipiscing elit
+                                                                        <input type="checkbox">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-lg-10 col-md-10">
+                                                            <div class="d-grid gap-2 mx-2">
+                                                                <button type="submit" class="btn btn-red rounded-pill shadow mb-4"><i class="fas fa-paper-plane"></i>
+                                                                    REGISTER</button>
+                                                            </div>
+                                                            
+                                                        </div>
+        
+                                                        <div class="col-lg-12 mb-5">
+                                                            <div class="d-flex justify-content-center">
+                                                                <span class="me-2 text-danger">Have account?</span><a
+                                                                    href="login.html" class="link">Login</a>
+                                                            </div>
+                                                        </div>
+        
+                                                    </div>
+        
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="card border-0 shadow card-login">
+                                        <div class="card-body p-0">
+                                            <form method="POST" name="myForm" action="#">
+
+                                                <div class="row justify-content-center mt-5">
+
+                                                    <div class="text-center mt-5">
+                                                        <h1 class="h2 judul text-bold">LOGIN</h1>
+                                                    </div>
+
+                                                    <div class="col-lg-10 col-md-10 mt-5">
+                                                        <div class="input-container mx-2">
+                                                            <i class="far fa-user icon"></i>
+                                                            <input class="input-field" type="text" placeholder="Username"
+                                                                name="usrnm" required>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-10 col-md-10">
+                                                        <div class="input-container mx-2">
+                                                            <i class="fas fa-lock icon"></i>
+                                                            <input class="input-field" type="password"
+                                                                placeholder="Password" name="pwd" required>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-10 col-md-10">
+                                                        <div class="d-flex justify-content-between mx-2">
+                                                            <div class="form-group my-4">
+                                                                <label class="container font-check">Remember
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </div>
+                                                            <a href="#" class="link my-4">Forgot Password?</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-10 col-md-10">
+                                                        <div class="d-grid gap-2 mx-2">
+                                                            <button type="submit"
+                                                                class="btn btn-red rounded-pill shadow mb-4"><i
+                                                                    class="fas fa-lock"></i>
+                                                                LOGIN</button>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-lg-12 mb-5">
+                                                        <div class="d-flex justify-content-center">
+                                                            <span class="me-2 text-danger">Not have account?</span><a
+                                                                href="register.html" class="link">Register</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bs5/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

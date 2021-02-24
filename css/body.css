@@ -1,0 +1,52 @@
+body{
+    background-image: url('../assets/bgbody.jpg');
+}
+
+.bg-vector{
+    background-color: #A0E7E5;
+    background-size:cover;
+}
+
+.judul{
+    color: #ef4165;
+}
+
+.card-login{
+    margin-right: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.desc{
+    font-size: 14px;
+    color: #ef4165;
+    margin-top: 24px;
+}
+
+.text-bold{
+    font-weight: bold;   
+}
+
+.link{
+    text-decoration:underline;
+    color: #ef4165;
+    font-weight: bold;
+}
+
+.link:hover{
+    color:#c23451;
+    font-weight: bold;
+}
+
+.btn-red{
+    background-color: #ef4165;
+    color: #fff;
+    transition: 300ms;
+    display: block;
+    padding: 16px;
+}
+
+.btn-red:hover{
+    background-color: #b1314b;
+    color: #fff;
+}
